@@ -38,7 +38,7 @@ qualiver-claude-code/
 
 **1. Clonar el repositorio**
 ```bash
-git clone https://github.com/<usuario>/qualiver-claude-code.git
+git clone https://github.com/yenifermazo-hash/CLAUDE-CODE.git
 ```
 
 **2. Copiar la skill a tu carpeta de Claude** (queda disponible en todos tus proyectos)
@@ -46,13 +46,13 @@ git clone https://github.com/<usuario>/qualiver-claude-code.git
 Mac / Linux:
 ```bash
 mkdir -p ~/.claude/skills
-cp -r qualiver-claude-code/skills/qualiver-proyecto ~/.claude/skills/
+cp -r CLAUDE-CODE/skills/qualiver-proyecto ~/.claude/skills/
 ```
 
 Windows (PowerShell):
 ```powershell
 New-Item -ItemType Directory -Force -Path "$HOME\.claude\skills"
-Copy-Item -Recurse -Force "qualiver-claude-code\skills\qualiver-proyecto" "$HOME\.claude\skills\"
+Copy-Item -Recurse -Force "CLAUDE-CODE\skills\qualiver-proyecto" "$HOME\.claude\skills\"
 ```
 
 **3. Comprobar**
@@ -65,14 +65,14 @@ Abrir Claude Code en cualquier carpeta (`claude`) y escribir:
 
 Mac / Linux:
 ```bash
-cd qualiver-claude-code
+cd CLAUDE-CODE
 git pull
 cp -r skills/qualiver-proyecto ~/.claude/skills/
 ```
 
 Windows (PowerShell):
 ```powershell
-cd qualiver-claude-code
+cd CLAUDE-CODE
 git pull
 Copy-Item -Recurse -Force "skills\qualiver-proyecto" "$HOME\.claude\skills\"
 ```
